@@ -26,6 +26,7 @@ body {
 h3 {
   color: var(--white);
   font-weight: 700;
+  font-size: 25px;
 }
 
 p {
@@ -44,6 +45,50 @@ p {
   transform: translate(-50%, -50%);
 }
 
+.card-img {
+  border-radius: 20px;
+}
+
 hr {
   color: var(--lineDarkBlue);
+  font-weight: 700;
+}
+
+.card-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-bottom {
+  display: flex;
+  column-gap: 20px;
+}
+
+.image-avatar {
+  width: 40px;
+  height: 40px;
+  border: 2px solid var(--white);
+  border-radius: 100%;
+}
+
+.flex-left {
+  display: flex;
+  column-gap: 10px;
+}
+
+.flex-right {
+  display: flex;
+  column-gap: 10px;
+}
+
+.em {
+  color: var(--white);
+}
+
+.avatar {
+  font-size: 15px;
+}
+
+.ethereum-text {
+  color: var(--cyan);
 }
