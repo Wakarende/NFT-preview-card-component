@@ -19,7 +19,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](/images/screenshot.jpg)
+![Screenshot](./screenshot.jpg)
 
 ### Links
 
