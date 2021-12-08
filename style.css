@@ -7,6 +7,10 @@
   --lineDarkBlue: hsl(215, 32%, 27%);
 }
 
+html {
+  color: var(--white);
+}
+
 body {
   font-family: 'Bai Jamjuree',
     sans-serif;
@@ -16,8 +20,30 @@ body {
     sans-serif;
   font-family: 'Roboto',
     sans-serif;
+  background-color: var(--bgDarkBlue);
+}
+
+h3 {
+  color: var(--white);
+  font-weight: 700;
 }
 
 p {
   font-size: 18px;
+  color: var(--softBlue);
+  font-weight: 300;
+}
+
+.card {
+  background-color: var(--cardDarkBlue);
+  padding: 20px;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+hr {
+  color: var(--lineDarkBlue);
 }
